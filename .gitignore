@@ -169,3 +169,14 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Ignore Sheets API Service Account Information
+test-project-sheets-api.json
+
+# Ignore downloaded data
+*.jpg
+*.heic
+data/
+
+# ignore jupyter ipynb checkpoints
+.ipynb_checkpoints
